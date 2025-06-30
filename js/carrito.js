@@ -147,7 +147,7 @@ Swal.fire({
   } else if (result.isDenied) {
     Swal.fire({
       title: 'Escanea para pagar con Yape o Plin',
-      html: `<img src="../img/yaplin.png" alt="QR de pago" style="width:200px; margin-bottom:10px;"><p>Total a pagar: <strong>${document.querySelector("#total-final").innerText}</strong></p>`,
+      html: `<img src="img/yaplin.png" alt="QR de pago" style="width:200px; margin-bottom:10px;"><p>Total a pagar: <strong>${document.querySelector("#total-final").innerText}</strong></p>`,
       confirmButtonText: 'Ya pagué',
       showCancelButton: true,
       cancelButtonText: 'Cancelar'
