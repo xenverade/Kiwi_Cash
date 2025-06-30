@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito - Kiwicash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/carrito.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-left">
+            <img src="img/icono.png" alt="Logo">
+            <span>Kiwicash</span>
+        </div>
+        <div class="navbar-right">
+            <a href="index.html"><i class="bi bi-arrow-left-circle"></i> Seguir comprando</a>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="carrito-contenido">
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="carrito-lista">
+            <h2 class="titulo-principal">Mi Carrito</h2>
+
+            <!-- Contenedor dinámico de productos -->
+            <div id="carrito-productos" class="carrito-productos"></div>
+
+            <!-- Estado del carrito -->
+            <div id="carrito-vacio" class="mensaje-estado">Tu carrito está vacío.</div>
+            <div id="carrito-comprado" class="mensaje-estado">¡Gracias por tu compra!</div>
+
+            <!-- Acciones del carrito -->
+            <div id="carrito-acciones" class="carrito-acciones">
+                <div class="carrito-acciones-izquierda">
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">S/ 0.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMNA DERECHA -->
+        <div class="carrito-resumen">
+            <div class="carrito-cupon">
+                <h3><i class="bi bi-ticket-perforated"></i> ¿Tienes un cupón de descuento?</h3>
+                <input type="text" placeholder="Código">
+                <button>Aplicar</button>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem;">
+                    Recuerda que los cupones de único uso no son reutilizables.
+                </p>
+            </div>
+
+            <div class="carrito-totales">
+                <p>Subtotal: <span id="subtotal">S/ 0.00</span></p>
+                <p style="color: red;">Descuentos: <span id="descuento">- S/ 0.00</span></p>
+                <p>Total: <span id="total-final"><strong>S/ 0.00</strong></span></p>
+               
+            </div>
+
+            <button id="carrito-continuar" class="boton-continuar">REALIZAR COMPRA</button>
+        </div>
+    </main>
+
+    <!-- JS -->
+     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="/js/firebaseConfig.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAbQD6qqWsP4NeIZcrerDr3GjzcFBVkHwM",
+    authDomain: "kiwicash-b690d.firebaseapp.com",
+    projectId: "kiwicash-b690d",
+    storageBucket: "kiwicash-b690d.firebasestorage.app",
+    messagingSenderId: "56859082209",
+    appId: "1:56859082209:web:eee9677a246ef6e62126a0"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
