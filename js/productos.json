@@ -1,0 +1,182 @@
+[
+    {
+        "id": "laptop-1",
+        "titulo": "Laptop LENOVO IdeaPad AMD Ryzen 7 5825U 16GB 1TB SSD",
+        "imagen": "./img/laptops/1.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptops"
+        },
+        "precio": 2199
+    },
+    {
+        "id": "laptop-2",
+        "titulo": "Laptop LENOVO Intel Core Ultra 5 125H 16GB 512GB SSD",
+        "imagen": "./img/laptops/2.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptops"
+        },
+        "precio": 3599
+    },
+    {
+        "id": "laptop-3",
+        "titulo": "Notebook LENOVO AMD Ryzen 5 8GB 512GB SSD + Maletín",
+        "imagen": "./img/laptops/3.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptops"
+        },
+        "precio": 1949
+    },
+    {
+        "id": "laptop-4",
+        "titulo": "Laptop LENOVO Intel Core i7-13620H 16GB 512GB SSD",
+        "imagen": "./img/laptops/4.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptops"
+        },
+        "precio": 2799
+    },
+    {
+        "id": "laptop-5",
+        "titulo": "Laptop ASUS AMD Ryzen 7 5825U 16GB 1TB SSD",
+        "imagen": "./img/laptops/5.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptops"
+        },
+        "precio": 2199
+    },
+    {
+        "id": "celular-1",
+        "titulo": "iPhone 16e eSIM 128GB 8GB Blanco",
+        "imagen": "./img/celulares/1.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 4525
+    },
+    {
+        "id": "celular-2",
+        "titulo": "iPhone 16 Pro Max 6.9 8GB 256GB Titanio Negro",
+        "imagen": "./img/celulares/2.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 5899
+    },
+    {
+        "id": "celular-3",
+        "titulo": "OPPO Reno 11 6.7 12GB 256GB 50MP + 32MP + 8MP",
+        "imagen": "./img/celulares/3.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 2099
+    },
+    {
+        "id": "celular-4",
+        "titulo": "OPPO Reno 13F 6.7 8GB 256GB 64MP + 8MP + 2MP",
+        "imagen": "./img/celulares/4.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 1799
+    },
+    {
+        "id": "celular-5",
+        "titulo": "OPPO Reno 13F 6.7 8GB 512GB 64MP + 8MP + 2MP",
+        "imagen": "./img/celulares/5.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 1999
+    },
+    {
+        "id": "celular-6",
+        "titulo": "SAMSUNG Galaxy A56 6.7 8GB 256GB 50MP + 12MP + 5MP",
+        "imagen": "./img/celulares/6.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 1899
+    },
+    {
+        "id": "celular-7",
+        "titulo": "SAMSUNG Galaxy A36 5G 6.7 6GB 128GB 50MP + 8MP + 5MP",
+        "imagen": "./img/celulares/7.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 1399
+    },
+    {
+        "id": "celular-8",
+        "titulo": "SAMSUNG Galaxy A16 6.7 4GB 128GB 50MP + 5MP + 2MP",
+        "imagen": "./img/celulares/8.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 699
+    },
+    {
+        "id": "dron-1",
+        "titulo": "Mini Dron Profesional E88 Con Camara Incorporada",
+        "imagen": "./img/drones/1.jpg",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 199
+    },
+    {
+        "id": "dron-2",
+        "titulo": "Dron Profesional 6K Con 3 Camaras + 3 Baterias",
+        "imagen": "./img/drones/2.jpg",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 799
+    },
+    {
+        "id": "dron-3",
+        "titulo": "Drone ZLL SG108 PRO Dual Cámara 4K GPS 5G WiFi",
+        "imagen": "./img/drones/3.jpg",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 499
+    },
+    {
+        "id": "dron-4",
+        "titulo": "Drone Plegable E88 Cámara Dual HD Wifi",
+        "imagen": "./img/drones/4.jpg",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 178
+    },
+    {
+        "id": "dron-5",
+        "titulo": "Dji Mavic 3 Pro Drone con Dji Rc + 2 Baterias",
+        "imagen": "./img/drones/5.jpg",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 15799
+    }
+]
